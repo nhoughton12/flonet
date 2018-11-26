@@ -1,0 +1,42 @@
+2018-11-12 19:29:34,645 INFO osmnx Configured osmnx
+2018-11-12 19:29:34,666 INFO osmnx Retrieved response from cache file "cache\94a0731caf66492d207b8ae5cd34813b.json" for URL "https://nominatim.openstreetmap.org/search?format=json&limit=1&dedupe=0&polygon_geojson=1&q=Wilmington%2C+North+Carolina%2C+USA"
+2018-11-12 19:29:34,668 INFO osmnx Created GeoDataFrame with 1 row for query "Wilmington, North Carolina, USA"
+2018-11-12 19:29:34,670 INFO osmnx Constructed place geometry polygon(s) to query API
+2018-11-12 19:29:34,713 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-18 in 0.04 seconds
+2018-11-12 19:29:34,910 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2018-11-12 19:29:34,914 INFO osmnx Projected the GeoDataFrame "geometry to project" to UTM-18 in 0.00 seconds
+2018-11-12 19:29:34,918 INFO osmnx Projected the GeoDataFrame "geometry to project" to default_crs in 0.00 seconds
+2018-11-12 19:29:34,920 INFO osmnx Requesting network data within polygon from API in 1 request(s)
+2018-11-12 19:29:35,026 INFO osmnx Retrieved response from cache file "cache\770fda249ef3e8a84869e1df7b59e853.json" for URL "http://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%28way%5B%22highway%22%5D%5B%22area%22%21~%22yes%22%5D%5B%22highway%22%21~%22cycleway%7Cfootway%7Cpath%7Cpedestrian%7Csteps%7Ctrack%7Ccorridor%7Cproposed%7Cconstruction%7Cbridleway%7Cabandoned%7Cplatform%7Craceway%7Cservice%22%5D%5B%22motor_vehicle%22%21~%22no%22%5D%5B%22motorcar%22%21~%22no%22%5D%5B%22access%22%21~%22private%22%5D%5B%22service%22%21~%22parking%7Cparking_aisle%7Cdriveway%7Cprivate%7Cemergency_access%22%5D%28poly%3A%2234.142749+-77.898573+34.142743+-77.899102+34.142777+-77.900260+34.142802+-77.900788+34.142871+-77.901311+34.142981+-77.901823+34.152798+-77.944744+34.152935+-77.945261+34.153115+-77.945758+34.153334+-77.946232+34.153592+-77.946676+34.153886+-77.947088+34.153931+-77.947145+34.154246+-77.947507+34.154588+-77.947831+34.154955+-77.948113+34.173645+-77.961604+34.174047+-77.961856+34.174468+-77.962058+34.174904+-77.962208+34.175350+-77.962305+34.175802+-77.962347+34.176918+-77.962388+34.177023+-77.962392+34.178239+-77.962415+34.204590+-77.961779+34.205087+-77.961739+34.244586+-77.958243+34.245537+-77.958099+34.246073+-77.957978+34.266431+-77.952461+34.266815+-77.952350+34.267189+-77.952199+34.268061+-77.951807+34.268505+-77.951600+34.268929+-77.951338+34.269327+-77.951023+34.269422+-77.950939+34.269735+-77.950636+34.270025+-77.950300+34.270288+-77.949934+34.270359+-77.949826+34.270674+-77.949282+34.270949+-77.948689+34.271003+-77.948562+34.271203+-77.948019+34.271353+-77.947453+34.271386+-77.947300+34.271473+-77.946807+34.271521+-77.946306+34.271530+-77.945803+34.271295+-77.824538+34.271273+-77.824011+34.271208+-77.823490+34.271101+-77.822978+34.270953+-77.822481+34.270767+-77.822004+34.260321+-77.796113+34.260130+-77.795649+34.259903+-77.795210+34.259643+-77.794798+34.256660+-77.790152+34.256531+-77.789955+34.256413+-77.789782+34.256267+-77.789577+34.256009+-77.789245+34.255410+-77.788549+34.255277+-77.788395+34.250623+-77.783194+34.250311+-77.782858+34.249973+-77.782559+34.249615+-77.782299+34.249237+-77.782079+34.249009+-77.781963+34.248557+-77.781764+34.248091+-77.781625+34.247614+-77.781547+34.247353+-77.781521+34.246383+-77.781428+34.245943+-77.781433+34.245505+-77.781490+34.245073+-77.781598+34.244653+-77.781756+34.244247+-77.781964+34.243860+-77.782218+34.193322+-77.819403+34.185681+-77.825235+34.168562+-77.838316+34.155749+-77.848256+34.155389+-77.848563+34.154929+-77.849027+34.154670+-77.849313+34.154303+-77.849786+34.154211+-77.849920+34.153942+-77.850355+34.153898+-77.850433+34.153686+-77.850854+34.153507+-77.851295+34.153362+-77.851754+34.153252+-77.852227+34.142889+-77.897531+34.142798+-77.898048+34.142749+-77.898573%22%29%3B%3E%3B%29%3Bout%3B"
+2018-11-12 19:29:35,027 INFO osmnx Got all network data within polygon from API in 1 request(s) and 0.11 seconds
+2018-11-12 19:29:35,030 INFO osmnx Creating networkx graph from downloaded OSM data...
+2018-11-12 19:29:35,775 INFO osmnx Created graph with 35,857 nodes and 72,275 edges in 0.74 seconds
+2018-11-12 19:29:41,525 INFO osmnx Added edge lengths to graph in 5.73 seconds
+2018-11-12 19:29:42,087 INFO osmnx Identifying all nodes that lie outside the polygon...
+2018-11-12 19:29:44,127 INFO osmnx Created r-tree spatial index for 35,857 points in 1.65 seconds
+2018-11-12 19:29:45,942 INFO osmnx Identified 30,776 nodes inside polygon in 1.82 seconds
+2018-11-12 19:29:45,956 INFO osmnx Removed 5,081 nodes outside polygon in 0.01 seconds
+2018-11-12 19:29:46,060 INFO osmnx Begin topologically simplifying the graph...
+2018-11-12 19:29:47,040 INFO osmnx Identified 5,503 edge endpoints in 0.36 seconds
+2018-11-12 19:29:47,106 INFO osmnx Constructed all paths to simplify in 0.07 seconds
+2018-11-12 19:29:49,511 INFO osmnx Simplified graph (from 30,776 to 5,503 nodes and from 62,080 to 13,919 edges) in 2.40 seconds
+2018-11-12 19:29:49,636 INFO osmnx Identifying all nodes that lie outside the polygon...
+2018-11-12 19:29:49,946 INFO osmnx Created r-tree spatial index for 5,503 points in 0.25 seconds
+2018-11-12 19:29:50,562 INFO osmnx Identified 4,807 nodes inside polygon in 0.62 seconds
+2018-11-12 19:29:50,565 INFO osmnx Removed 696 nodes outside polygon in 0.00 seconds
+2018-11-12 19:29:50,578 INFO osmnx Removed 3 isolated nodes
+2018-11-12 19:29:50,739 INFO osmnx Graph was not connected, retained only the largest weakly connected component (4,772 of 4,804 total nodes) in 0.16 seconds
+2018-11-12 19:29:51,519 INFO osmnx Got the counts of undirected street segments incident to each node (before removing peripheral edges) in 0.76 seconds
+2018-11-12 19:29:51,552 INFO osmnx graph_from_polygon() returning graph with 4,772 nodes and 12,402 edges
+2018-11-12 19:29:51,591 INFO osmnx graph_from_place() returning graph with 4,772 nodes and 12,402 edges
+2018-11-12 19:29:51,592 INFO osmnx Begin plotting the graph...
+2018-11-12 19:29:51,996 INFO osmnx Created GeoDataFrame "Wilmington, North Carolina, USA_edges" from graph in 0.40 seconds
+2018-11-12 19:29:52,997 INFO osmnx Drew the graph edges in 0.47 seconds
+2018-11-12 19:29:53,505 INFO osmnx Showed the plot in 0.28 seconds
+2018-11-12 19:29:54,122 INFO osmnx Created a GeoDataFrame from graph in 0.35 seconds
+2018-11-12 19:29:54,357 INFO osmnx Projected the GeoDataFrame "Wilmington, North Carolina, USA_nodes" to UTM-18 in 0.23 seconds
+2018-11-12 19:30:06,096 INFO osmnx Projected the GeoDataFrame "Wilmington, North Carolina, USA_edges" to UTM-18 in 11.71 seconds
+2018-11-12 19:30:06,230 INFO osmnx Extracted projected node geometries from GeoDataFrame in 0.13 seconds
+2018-11-12 19:30:19,819 INFO osmnx Rebuilt projected graph in 13.59 seconds
+2018-11-12 19:30:20,282 INFO osmnx Created GeoDataFrame "Wilmington, North Carolina, USA_UTM_nodes" from graph in 0.45 seconds
+2018-11-12 19:30:21,588 INFO osmnx Created GeoDataFrame "Wilmington, North Carolina, USA_UTM_nodes" from graph in 0.35 seconds
